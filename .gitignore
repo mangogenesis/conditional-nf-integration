@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+*.egg-info/
+
+# Editors and operating system
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Large training artifacts
+results/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.log
+
+# Generated physics files
+generated/
+mg5/
+*.so
+*.o
+*.a
+*.mod
+*.lhe
+*.lhe.gz
+*.hepmc
+*.root
+
+# LaTeX temporary files
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Temporary directories
+tmp/
+build/
+dist/
+.codex-build/
+.deck_build/
+
+# Curated results are allowed
+!results_public/
+!results_public/**
+
+# Notebook and source backups
+.ipynb_checkpoints/
+*.before_*
