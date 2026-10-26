@@ -1,0 +1,102 @@
+{
+  "mixture": "results/heterogeneous_topology_32d_protected_global_specialists/heterogeneous_protected_global_mixture.pt",
+  "discovered_regions": 4,
+  "protected_global_region": 2,
+  "new_specialists": 3,
+  "mixture_weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "uniform_fraction": 0.01,
+  "coverage": [
+    {
+      "region": 0,
+      "x0_minimum": 0.11412154138088226,
+      "x0_maximum": 0.2208816111087799,
+      "validation_samples": 1024,
+      "median_logq": -105.22195434570312,
+      "mean_logq": -105.272805377841
+    },
+    {
+      "region": 1,
+      "x0_minimum": 0.33466359972953796,
+      "x0_maximum": 0.4410040080547333,
+      "validation_samples": 1024,
+      "median_logq": -127.73457336425781,
+      "mean_logq": -104.1725067566149
+    },
+    {
+      "region": 2,
+      "x0_minimum": 0.5578885674476624,
+      "x0_maximum": 0.6659986972808838,
+      "validation_samples": 1024,
+      "median_logq": 53.195159912109375,
+      "mean_logq": 52.79439554736018
+    },
+    {
+      "region": 3,
+      "x0_minimum": 0.7794644236564636,
+      "x0_maximum": 0.8879038691520691,
+      "validation_samples": 1024,
+      "median_logq": -119.49872589111328,
+      "mean_logq": -105.87824925314635
+    }
+  ],
+  "training": [
+    {
+      "region": 2,
+      "x0_minimum": 0.5578885674476624,
+      "x0_maximum": 0.6659986972808838,
+      "validation_samples": 1024,
+      "median_logq": 53.195159912109375,
+      "mean_logq": 52.79439554736018,
+      "role": "protected_global",
+      "marginal_best_step": 0,
+      "copula_best_step": 0
+    },
+    {
+      "region": 0,
+      "x0_minimum": 0.11412154138088226,
+      "x0_maximum": 0.2208816111087799,
+      "validation_samples": 1024,
+      "median_logq": -105.22195434570312,
+      "mean_logq": -105.272805377841,
+      "role": "new_specialist",
+      "train_samples": 4096,
+      "marginal_best_step": 2400,
+      "marginal_validation_nll": -72.60308837890625,
+      "copula_best_step": 600,
+      "copula_validation_nll": -72.23603820800781
+    },
+    {
+      "region": 1,
+      "x0_minimum": 0.33466359972953796,
+      "x0_maximum": 0.4410040080547333,
+      "validation_samples": 1024,
+      "median_logq": -127.73457336425781,
+      "mean_logq": -104.1725067566149,
+      "role": "new_specialist",
+      "train_samples": 4096,
+      "marginal_best_step": 1600,
+      "marginal_validation_nll": -28.78276824951172,
+      "copula_best_step": 2000,
+      "copula_validation_nll": -56.23948669433594
+    },
+    {
+      "region": 3,
+      "x0_minimum": 0.7794644236564636,
+      "x0_maximum": 0.8879038691520691,
+      "validation_samples": 1024,
+      "median_logq": -119.49872589111328,
+      "mean_logq": -105.87824925314635,
+      "role": "new_specialist",
+      "train_samples": 4096,
+      "marginal_best_step": 1200,
+      "marginal_validation_nll": -25.063157081604004,
+      "copula_best_step": 2800,
+      "copula_validation_nll": -52.958988189697266
+    }
+  ]
+}

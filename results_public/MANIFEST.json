@@ -1,0 +1,120 @@
+{
+  "source": "/direct/usatlas+u/zhaozhong/nf_integrator/results",
+  "output": "/direct/usatlas+u/zhaozhong/conditional-nf-integration-gitlab/results_public",
+  "runs": [
+    "topology_ladder_32d_joint_specialist_atlas_exact_audit",
+    "topology_ladder_32d_joint_specialist_atlas_neighborhood_audit",
+    "heterogeneous_topology_32d_protected_global_specialists"
+  ],
+  "files": [
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_exact_audit/condition_results.csv",
+      "bytes": 1227,
+      "sha256": "aa2e5cd2f04bf9d3a0d81f9110a418a3a43b87dc9d8d1695cd75587e554a754e"
+    },
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_exact_audit/specialist_summary.csv",
+      "bytes": 581,
+      "sha256": "4f8a817ee94d1fc97ac21e7ac22e77652ec9ad86c4d6b871d7143a15536c92f1"
+    },
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_exact_audit/summary.json",
+      "bytes": 661,
+      "sha256": "d6701e5ed88836473fdfd865b6fd826fdb2951b3af8d5cc5075636dd63cc5958"
+    },
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_neighborhood_audit/condition_results.csv",
+      "bytes": 4140,
+      "sha256": "4f00ad9fd03791af97f1ec4a78a53f734a4aa4e5ceb50d9445ccadf21507a9fe"
+    },
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_neighborhood_audit/specialist_summary.csv",
+      "bytes": 584,
+      "sha256": "765f36453ebb7773e4afe17eae1f4bc88ab16b2108b1d31cc2097954fe8b6e45"
+    },
+    {
+      "file": "topology_ladder_32d_joint_specialist_atlas_neighborhood_audit/summary.json",
+      "bytes": 663,
+      "sha256": "b0f73d484497e0da8a71fc75837d0f6155bc9a0308753fa9c1e2ea7a7f3b1780"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/audit/replicate_results.csv",
+      "bytes": 2744,
+      "sha256": "603d9a174d029ed51156d1ce4b3eb3787eb592eef594e8c7313114d258d48a68"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/audit/structure_summary.csv",
+      "bytes": 593,
+      "sha256": "1a5d05d6a75a5d65ea1234299d00dc5b922ca1eeb88f5f67179ef5c45db6d949"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/audit/summary.json",
+      "bytes": 2053,
+      "sha256": "125df231715695fa07c6fcae7d3d691b5cc5cb6184681a69e323def2c7d40c11"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/.ipynb_checkpoints/target_global_candidate_structure_by_structure-checkpoint.pdf",
+      "bytes": 83113,
+      "sha256": "f7fa1c03b779b775a3fb4e7d3313800ea14ae1b2d692e6fdc4f8485050948512"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/.ipynb_checkpoints/target_global_candidate_structure_masses-checkpoint.pdf",
+      "bytes": 15364,
+      "sha256": "efd64325049dba6b5efdb91e59ac91eb7ca300b3acd6e90e6c2b97ab96ce9f2e"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/structure_mass_comparison.csv",
+      "bytes": 538,
+      "sha256": "2ed8d6df37f3b79f451045f1ad1715855371b89500e25d2f6dcaf2307269a80e"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/summary.json",
+      "bytes": 2180,
+      "sha256": "225a9b1fdca75ed05bde4ffb8e6b44ad9b4f5c4c7ab57bd5b0245a431bca852a"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/target_global_candidate_structure_by_structure.pdf",
+      "bytes": 83113,
+      "sha256": "f7fa1c03b779b775a3fb4e7d3313800ea14ae1b2d692e6fdc4f8485050948512"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/target_global_candidate_structure_by_structure.png",
+      "bytes": 323884,
+      "sha256": "cc783a301ba718c538a050d5c3104b0e363604521b31552f3cf5f93a75cfed94"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/target_global_candidate_structure_masses.pdf",
+      "bytes": 15364,
+      "sha256": "efd64325049dba6b5efdb91e59ac91eb7ca300b3acd6e90e6c2b97ab96ce9f2e"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison/target_global_candidate_structure_masses.png",
+      "bytes": 68310,
+      "sha256": "c6a1b3113b3e5a0698508b15b2383afe61c910d216b78fb51fc53f42e3061289"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/protected_specialist_summary.csv",
+      "bytes": 742,
+      "sha256": "5dc8b40dd7b0468f62df53778d5064a08d4b98ef79f0a1da7f9c339fd4e96960"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/summary.json",
+      "bytes": 2938,
+      "sha256": "9fd639589fdb0548acfe5768e76a86ebc4753dd089ea5a37c843def3956f01ca"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/audit.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/comparison.log",
+      "reason": "suffix excluded"
+    },
+    {
+      "file": "heterogeneous_topology_32d_protected_global_specialists/heterogeneous_protected_global_mixture.pt",
+      "reason": "suffix excluded"
+    }
+  ]
+}

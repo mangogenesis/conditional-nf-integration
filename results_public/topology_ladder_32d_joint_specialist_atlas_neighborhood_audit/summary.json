@@ -1,0 +1,18 @@
+{
+  "benchmark": "topology_two_conditional_32",
+  "atlas": "results/topology_ladder_32d_joint_specialist_atlas_pilot/joint_specialist_atlas.pt",
+  "specialists": 4,
+  "conditions": 16,
+  "conditions_per_center": 4,
+  "condition_radius": 0.01,
+  "samples_per_condition": 1000000,
+  "median_m2": 1.8542419407371076,
+  "q90_m2": 5.135704528893727,
+  "maximum_m2": 10.452717446803996,
+  "median_normalized_ess": 0.539653771956671,
+  "minimum_normalized_ess": 0.09611776809765114,
+  "maximum_absolute_integral_error": 0.0033101434577933464,
+  "maximum_branch_mass_error": 0.04276359009361269,
+  "maximum_gap_mass": 0.000265,
+  "maximum_log_weight": 8.003345489501953
+}

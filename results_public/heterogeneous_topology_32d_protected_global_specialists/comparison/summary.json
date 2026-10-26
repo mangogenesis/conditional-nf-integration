@@ -1,0 +1,89 @@
+{
+  "benchmark": "heterogeneous_four_structure_32",
+  "global_checkpoint": "results/heterogeneous_topology_32d_fixed_c/heterogeneous_four_structure_32_final_model.pt",
+  "repaired_mixture": "results/heterogeneous_topology_32d_protected_global_specialists/heterogeneous_protected_global_mixture.pt",
+  "condition": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "samples_per_distribution": 500000,
+  "figures": [
+    "target_global_candidate_structure_by_structure.png",
+    "target_global_candidate_structure_masses.png"
+  ],
+  "rows": [
+    {
+      "proposal": "Exact benchmark",
+      "structure": "sharp_peak",
+      "sample_mass": 0.25082,
+      "gap_mass": 0.0
+    },
+    {
+      "proposal": "Exact benchmark",
+      "structure": "curved_ridge",
+      "sample_mass": 0.250948,
+      "gap_mass": 0.0
+    },
+    {
+      "proposal": "Exact benchmark",
+      "structure": "curved_sheet",
+      "sample_mass": 0.24943,
+      "gap_mass": 0.0
+    },
+    {
+      "proposal": "Exact benchmark",
+      "structure": "ring",
+      "sample_mass": 0.248802,
+      "gap_mass": 0.0
+    },
+    {
+      "proposal": "Global NF",
+      "structure": "sharp_peak",
+      "sample_mass": 0.000282,
+      "gap_mass": 0.00463
+    },
+    {
+      "proposal": "Global NF",
+      "structure": "curved_ridge",
+      "sample_mass": 0.00051,
+      "gap_mass": 0.00463
+    },
+    {
+      "proposal": "Global NF",
+      "structure": "curved_sheet",
+      "sample_mass": 0.994096,
+      "gap_mass": 0.00463
+    },
+    {
+      "proposal": "Global NF",
+      "structure": "ring",
+      "sample_mass": 0.000482,
+      "gap_mass": 0.00463
+    },
+    {
+      "proposal": "Protected specialists",
+      "structure": "sharp_peak",
+      "sample_mass": 0.24358,
+      "gap_mass": 0.0139
+    },
+    {
+      "proposal": "Protected specialists",
+      "structure": "curved_ridge",
+      "sample_mass": 0.241274,
+      "gap_mass": 0.0139
+    },
+    {
+      "proposal": "Protected specialists",
+      "structure": "curved_sheet",
+      "sample_mass": 0.253574,
+      "gap_mass": 0.0139
+    },
+    {
+      "proposal": "Protected specialists",
+      "structure": "ring",
+      "sample_mass": 0.247672,
+      "gap_mass": 0.0139
+    }
+  ]
+}

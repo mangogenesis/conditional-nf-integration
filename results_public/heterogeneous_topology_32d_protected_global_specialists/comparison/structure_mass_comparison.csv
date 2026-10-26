@@ -1,0 +1,13 @@
+proposal,structure,sample_mass,gap_mass
+Exact benchmark,sharp_peak,0.25082,0.0
+Exact benchmark,curved_ridge,0.250948,0.0
+Exact benchmark,curved_sheet,0.24943,0.0
+Exact benchmark,ring,0.248802,0.0
+Global NF,sharp_peak,0.000282,0.00463
+Global NF,curved_ridge,0.00051,0.00463
+Global NF,curved_sheet,0.994096,0.00463
+Global NF,ring,0.000482,0.00463
+Protected specialists,sharp_peak,0.24358,0.0139
+Protected specialists,curved_ridge,0.241274,0.0139
+Protected specialists,curved_sheet,0.253574,0.0139
+Protected specialists,ring,0.247672,0.0139
