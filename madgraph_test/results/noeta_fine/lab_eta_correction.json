@@ -1,0 +1,10 @@
+{
+  "scan": "results\\scan_noeta_fine.csv",
+  "no_eta_pb": 11876.957237063925,
+  "lab_cut_pb": 9113.313784405633,
+  "cm_cut_pb": 11753.545708242751,
+  "lab_fraction": 0.7673104821802418,
+  "cm_fraction": 0.9896091628219348,
+  "native_both_cuts_pb": 9142.3,
+  "note": "fine no-eta scan; corrected xfxQ2; LHAPDF no-eta event sample"
+}

@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+torch>=2.0
+# LHAPDF is not installed by pip here.  Use a conda-forge environment:
+#   conda install -c conda-forge lhapdf
+#   lhapdf install NNPDF23_lo_as_0130_qed
+# On Windows, lhapdf-local/python/lhapdf.py is an optional ctypes shim; see
+# lhapdf-local/README.md.

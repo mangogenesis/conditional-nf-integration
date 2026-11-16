@@ -1,0 +1,78 @@
+{
+  "name": "zj_hadronic_high",
+  "description": "Hadronic pp > Z + j, high sqrt(s-hat) range, full LO amplitude (no @1), six MadGraph subprocess groups.",
+  "model": "sm",
+  "process": "p p > z j",
+  "standalone": "generated/zj_hadronic_standalone",
+  "alpha_s": 0.13,
+  "beam": {
+    "type": "pp",
+    "sqrt_s": 13000.0,
+    "pdf": "NNPDF23_lo_as_0130_qed",
+    "lhaid": 247000,
+    "lhaid_requested": 230000,
+    "madgraph_pdlabel": "nn23lo1",
+    "lhaid_note": "MG5's nn23lo1 is the LO as_0130 set, LHAPDF ID 247000; LHAPDF ID 230000 is NNPDF23_nlo_as_0119 and does not match the baseline.",
+    "member": 0,
+    "scale": 91.188
+  },
+  "channels": [
+    {
+      "name": "gu_zu",
+      "pdir": "P1_gu_zu",
+      "process": "g u > z u",
+      "final_pdgs": [23, 2],
+      "pdf_pairs": [[21, 2], [21, 4]]
+    },
+    {
+      "name": "gd_zd",
+      "pdir": "P1_gd_zd",
+      "process": "g d > z d",
+      "final_pdgs": [23, 1],
+      "pdf_pairs": [[21, 1], [21, 3]]
+    },
+    {
+      "name": "gux_zux",
+      "pdir": "P1_gux_zux",
+      "process": "g u~ > z u~",
+      "final_pdgs": [23, -2],
+      "pdf_pairs": [[21, -2], [21, -4]]
+    },
+    {
+      "name": "gdx_zdx",
+      "pdir": "P1_gdx_zdx",
+      "process": "g d~ > z d~",
+      "final_pdgs": [23, -1],
+      "pdf_pairs": [[21, -1], [21, -3]]
+    },
+    {
+      "name": "uux_zg",
+      "pdir": "P1_uux_zg",
+      "process": "u u~ > z g",
+      "final_pdgs": [23, 21],
+      "pdf_pairs": [[2, -2], [4, -4]]
+    },
+    {
+      "name": "ddx_zg",
+      "pdir": "P1_ddx_zg",
+      "process": "d d~ > z g",
+      "final_pdgs": [23, 21],
+      "pdf_pairs": [[1, -1], [3, -3]]
+    }
+  ],
+  "phase_space": {
+    "type": "two_body",
+    "dimension": 2,
+    "cuts": {
+      "jet_indices": [1],
+      "pt_j_min": 20.0,
+      "eta_j_max": 2.5
+    }
+  },
+  "condition": {
+    "name": "sqrt_s_hat_gev",
+    "minimum": 200.0,
+    "maximum": 2000.0,
+    "held_out": [250.0, 400.0, 650.0, 1000.0, 1500.0, 1950.0]
+  }
+}

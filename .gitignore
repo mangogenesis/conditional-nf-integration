@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+# Generated / large artefacts (reproduce with RUNBOOK.md)
+conditional-nf-integration/generated/
+conditional-nf-integration/results/*_copula_balanced_gpu/
+madgraph_test/native_zj_lhapdf/
+madgraph_test/native_zj_nocuts/
+madgraph_test/partonic_zj/
+madgraph_test/logs/
+madgraph_test/verification/events_flat.csv

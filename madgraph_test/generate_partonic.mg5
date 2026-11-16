@@ -1,0 +1,8 @@
+import model sm
+generate g u > z u
+add process g d > z d
+add process g u~ > z u~
+add process g d~ > z d~
+add process u u~ > z g
+add process d d~ > z g
+output partonic_zj

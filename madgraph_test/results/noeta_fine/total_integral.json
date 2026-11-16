@@ -1,0 +1,18 @@
+{
+  "scan": "results\\scan_noeta_fine.csv",
+  "energy_range_gev": [
+    114.0,
+    2000.0
+  ],
+  "total_noeta_pb": 11876.957237063923,
+  "total_noeta_error_pb": 0.6135950388066683,
+  "total_with_cuts_pb": 11753.897778303039,
+  "total_with_cuts_same_grid_pb": 11753.897778303039,
+  "nf_reference_pb": 11752.4414,
+  "nf_reference_error_pb": 0.8248,
+  "native_noeta_pb": 11913.0,
+  "native_noeta_error_pb": 10.9,
+  "native_both_cuts_pb": 9142.3,
+  "native_both_cuts_error_pb": 6.8,
+  "pdf_scale": "xfxQ2 at Q=MZ; corrected 2026-11-10"
+}
